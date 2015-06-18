@@ -1,5 +1,65 @@
 # virtuoso.js
 
+## Описание тега
+Одной из особенностей данного фреймворка является то, что весь пользовательский интерфейс может быть описан в базе знаний.
+Серверная сторона должна предоставлять данные в виде деревьев тегов в формате JSON.
+Пример описания тега:
+
+HTML:
+```
+<span id="sc_addr_158957794" name="example" class="btn btn-success" style="color=#fff; background-color=#000;" onclick="helloWorld(event, 'sc_addr_358557793')">
+    Example text
+</span>
+```
+
+JSON:
+```
+<tag0> = {
+    "name": "span",                // По умолчанию "div"
+    "test": "Example text",        // По умолчанию ""
+    "attributes": [
+        {
+            "name": "id",                    // Обязательный атрибут
+            "value": "sc_addr_158957794"     // всех тегов!
+        },
+        {
+            "name": "name",
+            "value": "example"
+        }
+    ],
+    "classes": [
+        "btn",
+        "btn-success"
+    ],
+    "styles": [
+        {
+            "name": "color",
+            "value": "#fff"
+        },
+        {
+            "name": "background-color",
+            "value": "#000"
+        }
+    ],
+    "events": [
+        {
+            "name": "onclick",
+            "value": {
+                "name": "helloWorld",
+                "params": [
+                    "sc_addr_358557793"
+                ]
+            }
+        }
+    ],
+    "children": [
+        <tag1>,
+        <tag2>,
+        <tag3>,
+    ]
+}
+```
+
 ## Установка проекта
 
 ####Установка Node.js

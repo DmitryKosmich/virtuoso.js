@@ -2,7 +2,7 @@
   "name": "virtuoso",
   "version": "1.0.0",
   "description": "bsuir.ai.ostis.virtuoso",
-  "main": "app.js",
+  "main": "src/js/virtuoso.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
