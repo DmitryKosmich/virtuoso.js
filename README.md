@@ -8,7 +8,7 @@
 HTML:
 ```
 <span id="sc_addr_158957794" name="example" class="btn btn-success"
-    style="color=#fff; background-color=#000;" onclick="helloWorld(event, 'sc_addr_358557793')">
+ style="color=#fff; background-color=#000;" onclick="helloWorld(event, 'sc_addr_358557793')">
     Example text
 </span>
 ```
