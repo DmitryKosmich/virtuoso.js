@@ -1,4 +1,7 @@
-/**
- * @module Event
- */
-VIRTUOSO.namespace('modules.Event');
+(function () {
+    'use strict';
+
+    VIRTUOSO.namespace('modules.Event');
+
+})();
+

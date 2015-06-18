@@ -1,4 +1,7 @@
-/**
- * @module Dom
- */
-VIRTUOSO.namespace('modules.Dom');
+(function () {
+    'use strict';
+
+    VIRTUOSO.namespace('modules.Dom');
+
+})();
+

@@ -1,4 +1,7 @@
-/**
- * @module Connector
- */
-VIRTUOSO.namespace('modules.Connector');
+(function () {
+    'use strict';
+
+    VIRTUOSO.namespace('modules.Connector');
+
+})();
+

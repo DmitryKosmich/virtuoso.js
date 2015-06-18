@@ -1,13 +1,17 @@
-
 var VIRTUOSO = (function () {
     'use strict';
+    /**
+     * Имя фреймворка
+     * @type {string}
+     */
+    var FW_NAME = 'VIRTUOSO';
 
     /**
-     * Корневой объект фреймворка
+     *
      * @type {{VIRTUOSO}}
-     * @namespace VIRTUOSO
+     * @namespace VIRTUOSO - Корневой объект фреймворка
      */
-     var VIRTUOSO = VIRTUOSO || {};
+    var VIRTUOSO = VIRTUOSO || {};
 
     /**
      *
@@ -18,7 +22,7 @@ var VIRTUOSO = (function () {
         var parts = ns_string.split('.'),
             parent = VIRTUOSO, i;
 
-        if (parts[0] === 'VIRTUOSO') {
+        if (parts[0] === FW_NAME) {
             parts = parts.slice(1);
         }
 
