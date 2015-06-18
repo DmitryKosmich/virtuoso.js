@@ -33,7 +33,7 @@ gulp.task('doc', shell.task([
 
 // Watch Files For Changes
 gulp.task('watch', function() {
-    gulp.watch('src/js/**/*.js', ['lint', 'scripts', 'doc']);
+    gulp.watch('src/js/**/*.js', ['lint', 'scripts']);
 });
 
 // Test task

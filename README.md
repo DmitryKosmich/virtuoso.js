@@ -1,26 +1,46 @@
 # virtuoso.js
 
-## Running of the project
+## Установка проекта
 
-####Installing Node.js
+####Установка Node.js
 [http://nodejs.org/download/]
 
-####Installing Gulp.js
-[http://gulpjs.com/] The JavaScript Task Runner. Install it with npm.
+####Установка Gulp.js
+[http://gulpjs.com/] Менеджер выполнения задач JavaScript. Может быть установлен с помощью пакетного менеджера NPM,
+необходимо установить глобально, выполнив команду:
 ```
 $ npm install -g gulp
 ```
 
-####Installing JSDoc
-[https://www.npmjs.com/package/jsdoc] An API documentation generator for JavaScript.
+####Установка JSDoc
+[https://www.npmjs.com/package/jsdoc] API для генерации документации JavaScript. Необходимо установить глобально, выполнив команду:
 ```
 $ npm install -g jsdoc
 ```
 
-####Install libraries and dependencies
-In root directory of the project you need to run the command:
+####Установка библиотек и зависимостей
+В корневой директории проекта необходимо выполнить команду:
 ```
 $ npm install
+```
 
+## Доступные Gulp команды
+gulp - стандартная команда для запуска проекта. При ее выполнении происходит проверка JavaScript кода на ошибки, объединение
+всех JavaScript файлов в один, сжатие(минификация) полученного файла. Минифицированная и полная версия файла сохраняется в директории "dist".
+Устонавливается режим "Watch". Gulp отслеживает изменения в проекте и выполняет вышеуказанные задачи заново.
+
+```
 $ gulp
+```
+
+gulp test - происходит запуск unit-тестов
+
+```
+$ gulp test
+```
+
+gulp doc - происходит генерация документации. Она сохраняется в директории "out"
+
+```
+$ gulp doc
 ```
