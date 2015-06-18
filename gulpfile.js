@@ -6,6 +6,7 @@ var jshint = require('gulp-jshint');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
+var jasmine = require('gulp-jasmine');
 
 // Lint Task
 gulp.task('lint', function() {
@@ -29,5 +30,11 @@ gulp.task('watch', function() {
     gulp.watch('src/js/*.js', ['lint', 'scripts']);
 });
 
+// Test task
+gulp.task('test', function () {
+    return gulp.src('test/**/*.js')
+        .pipe(jasmine());
+});
+
 // Default Task
-gulp.task('default', ['lint', 'scripts', 'watch']);
+gulp.task('default', ['lint', 'scripts', 'test', 'watch']);
