@@ -1,0 +1,31 @@
+{
+  "name": "virtuoso",
+  "version": "1.0.0",
+  "description": "bsuir.ai.ostis.virtuoso",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitryKosmich/virtuoso.js.git"
+  },
+  "keywords": [
+    "ostis",
+    "web",
+    "front-end"
+  ],
+  "author": "Dmitry Kosmich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryKosmich/virtuoso.js/issues"
+  },
+  "homepage": "https://github.com/DmitryKosmich/virtuoso.js#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-jshint": "^1.11.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0"
+  }
+}
