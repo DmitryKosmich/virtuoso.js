@@ -12,7 +12,7 @@
 
     /**
      *
-     * @param html_string {String} - Строка с HTML
+     * @param html_string {String} - Строка с HTML для дальнейщего преобразования в JSON
      * @returns {String} - Строка с JSON
      */
     Parser.prototype.toJSON = function (html_string) {
@@ -22,7 +22,7 @@
 
     /**
      *
-     * @param json_string {String} - Строка с JSON
+     * @param json_string {String} - Строка с JSON для дальнейщего преобразования в HTML
      * @returns {String} - Строка с HTML
      */
     Parser.prototype.toHTML = function (json_string) {
