@@ -143,6 +143,7 @@
                             ],
                             "inclusions": [
                                 {
+                                    "sc_type": "text",
                                     "value": "Submit"
                                 }
                             ]
