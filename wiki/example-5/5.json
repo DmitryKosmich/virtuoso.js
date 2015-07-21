@@ -1,0 +1,229 @@
+{
+    "sc_type": "element",
+    "sc_addr": "sc_addr_158957791",
+    "name": "document",
+    "inclusions": [
+        {
+            "sc_type": "element",
+            "sc_addr": "sc_addr_158957792",
+            "name": "head"
+        },
+        {
+            "sc_type": "element",
+            "sc_addr": "sc_addr_158957793",
+            "name": "body",
+            "inclusions": [
+                {
+                    "sc_type": "element",
+                    "sc_addr": "sc_addr_158957794",
+                    "name": "form",
+                    "styles": [
+                        {
+                            "name": "background-color",
+                            "value": "#E4E8EC"
+                        },
+                        {
+                            "name": "position",
+                            "value": "absolute"
+                        },
+                        {
+                            "name": "padding",
+                            "value": "10px"
+                        }
+                    ],
+                    "inclusions": [
+                        {
+                            "sc_type": "element",
+                            "sc_addr": "sc_addr_158957802",
+                            "name": "div",
+                            "classes": [
+                                "form-group"
+                            ],
+                            "inclusions": [
+                                {
+                                    "sc_type": "element",
+                                    "sc_addr": "sc_addr_158957795",
+                                    "name": "label",
+                                    "attributes": [
+                                        {
+                                            "name": "for",
+                                            "value": "sc_addr_158957796"
+                                        }
+                                    ],
+                                    "classes": [
+                                        "form-group-label"
+                                    ],
+                                    "inclusions": [
+                                        {
+                                            "sc_type": "text",
+                                            "value": "Password"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sc_type": "element",
+                                    "sc_addr": "sc_addr_158957796",
+                                    "name": "input",
+                                    "classes": [
+                                        "form-group-input"
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "name": "type",
+                                            "value": "password"
+                                        },
+                                        {
+                                            "name": "placeholder",
+                                            "value": "Password"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sc_type": "element",
+                            "sc_addr": "sc_addr_158957803",
+                            "name": "div",
+                            "classes": [
+                                "form-group"
+                            ],
+                            "inclusions": [
+                                {
+                                    "sc_type": "element",
+                                    "sc_addr": "sc_addr_158957804",
+                                    "name": "label",
+                                    "attributes": [
+                                        {
+                                            "name": "for",
+                                            "value": "sc_addr_158957805"
+                                        }
+                                    ],
+                                    "classes": [
+                                        "form-group-label"
+                                    ],
+                                    "inclusions": [
+                                        {
+                                            "sc_type": "text",
+                                            "value": "Password"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sc_type": "element",
+                                    "sc_addr": "sc_addr_158957805",
+                                    "name": "input",
+                                    "classes": [
+                                        "form-group-input"
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "name": "type",
+                                            "value": "password"
+                                        },
+                                        {
+                                            "name": "placeholder",
+                                            "value": "Password"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sc_type": "element",
+                            "sc_addr": "sc_addr_158957797",
+                            "name": "button",
+                            "attributes": [
+                                {
+                                    "name": "type",
+                                    "value": "submit"
+                                }
+                            ],
+                            "inclusions": [
+                                {
+                                    "value": "Submit"
+                                }
+                            ]
+                        },
+                        {
+                            "sc_type": "class",
+                            "sc_addr": "sc_addr_158957794",
+                            "name": "form-button",
+                            "styles": [
+                                {
+                                    "name": "background-color",
+                                    "value": "#ACB9C8"
+                                },
+                                {
+                                    "name": "padding",
+                                    "value": "5px 10px 5px 10px"
+                                },
+                                {
+                                    "name": "border",
+                                    "value": "none"
+                                },
+                                {
+                                    "name": "color",
+                                    "value": "#fff"
+                                },
+                                {
+                                    "pseudo": "hover",
+                                    "name": "background-color",
+                                    "value": "#9fabb9"
+                                }
+                            ]
+                        },
+                        {
+                            "sc_type": "class",
+                            "sc_addr": "sc_addr_158957807",
+                            "name": "form-group",
+                            "styles": [
+                                {
+                                    "name": "margin-bottom",
+                                    "value": "15px"
+                                }
+                            ]
+                        },
+                        {
+                            "sc_type": "class",
+                            "sc_addr": "sc_addr_158957808",
+                            "name": "form-group-label",
+                            "styles": [
+                                {
+                                    "name": "color",
+                                    "value": "#65748C"
+                                },
+                                {
+                                    "name": "display",
+                                    "value": "block"
+                                },
+                                {
+                                    "name": "font-size",
+                                    "value": "14px"
+                                },
+                                {
+                                    "name": "padding-bottom",
+                                    "value": "5px"
+                                }
+                            ]
+                        },
+                        {
+                            "sc_type": "class",
+                            "sc_addr": "sc_addr_158957808",
+                            "name": "form-group-label",
+                            "styles": [
+                                {
+                                    "name": "padding",
+                                    "value": "5px 10px 5px 10px"
+                                },
+                                {
+                                    "name": "border",
+                                    "value": "none"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

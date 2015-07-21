@@ -1,20 +1,25 @@
 {
+    "sc_type": "element",
     "sc_addr": "sc_addr_158957791",
     "name": "document",
     "inclusions": [
         {
+            "sc_type": "element",
             "sc_addr": "sc_addr_158957792",
             "name": "head"
         },
         {
+            "sc_type": "element",
             "sc_addr": "sc_addr_158957793",
             "name": "body",
             "inclusions": [
                 {
+                    "sc_type": "element",
                     "sc_addr": "sc_addr_158957794",
                     "name": "form",
                     "inclusions": [
                         {
+                            "sc_type": "element",
                             "sc_addr": "sc_addr_158957795",
                             "name": "label",
                             "attributes": [
@@ -25,11 +30,13 @@
                             ],
                             "inclusions": [
                                 {
+                                    "sc_type": "text",
                                     "value": "Password"
                                 }
                             ]
                         },
                         {
+                            "sc_type": "element",
                             "sc_addr": "sc_addr_158957796",
                             "name": "input",
                             "attributes": [
@@ -44,6 +51,7 @@
                             ]
                         },
                         {
+                            "sc_type": "element",
                             "sc_addr": "sc_addr_158957797",
                             "name": "button",
                             "attributes": [
@@ -54,6 +62,7 @@
                             ],
                             "inclusions": [
                                 {
+                                    "sc_type": "text",
                                     "value": "Submit"
                                 }
                             ]

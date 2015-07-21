@@ -1,16 +1,20 @@
 {
+    "sc_type": "element",
     "sc_addr": "sc_addr_158957791",
     "name": "document",
     "inclusions": [
         {
+            "sc_type": "element",
             "sc_addr": "sc_addr_158957792",
             "name": "head"
         },
         {
+            "sc_type": "element",
             "sc_addr": "sc_addr_158957793",
             "name": "body",
             "inclusions": [
                 {
+                    "sc_type": "text",
                     "value": "Hello World"
                 }
             ]
