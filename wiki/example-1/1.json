@@ -1,7 +1,7 @@
 {
     "sc_addr": "sc_addr_158957791",
     "name": "document",
-    "inclusion": [
+    "inclusions": [
         {
             "sc_addr": "sc_addr_158957792",
             "name": "head"
