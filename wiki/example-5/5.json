@@ -132,6 +132,9 @@
                             "sc_type": "element",
                             "sc_addr": "sc_addr_158957797",
                             "name": "button",
+                            "classes": [
+                                "form-button"
+                            ],
                             "attributes": [
                                 {
                                     "name": "type",
