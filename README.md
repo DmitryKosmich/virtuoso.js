@@ -1,4 +1,4 @@
-# ![](https://raw.githubusercontent.com/DmitryKosmich/virtuoso.js/master/wiki/logo/Virtuoso%20logo.png)
+![](https://raw.githubusercontent.com/DmitryKosmich/virtuoso.js/master/wiki/logo/Virtuoso%20logo.png)
 
 ## Wiki:
 
