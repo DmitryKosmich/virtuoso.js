@@ -1,6 +1,6 @@
 # ![](https://raw.githubusercontent.com/DmitryKosmich/virtuoso.js/master/wiki/logo/Virtuoso%20logo.png)
 
-## Описание технологии
+## Wiki:
 
 #### [1. Каркас (Hello World)](https://github.com/DmitryKosmich/virtuoso.js/wiki/1.-%D0%9A%D0%B0%D1%80%D0%BA%D0%B0%D1%81-(Hello-World))
 #### [2. Каркас (Форма)](https://github.com/DmitryKosmich/virtuoso.js/wiki/2.-%D0%9A%D0%B0%D1%80%D0%BA%D0%B0%D1%81-(%D0%A4%D0%BE%D1%80%D0%BC%D0%B0))
