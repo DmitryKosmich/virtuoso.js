@@ -1,4 +1,4 @@
-# virtuoso.js
+# ![](https://raw.githubusercontent.com/DmitryKosmich/virtuoso.js/master/wiki/logo/Virtuoso%20logo.png)
 
 ## Описание технологии
 
